@@ -1,0 +1,59 @@
+*{
+	font-family: system-ui;
+}
+
+body{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#light-button{
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+#dark-button{
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+#links{
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: -16px;
+	background: grey;
+	margin-left: -2%;
+}
+
+#links li{
+	list-style-type: none;
+	display: inline;
+	
+}
+
+#links li a{
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+}
+
+#links li a:hover{
+	background: green;
+	border-radius: 5px;
+}
+
+#links li a:focus{
+	background: green;
+	border-radius: 5px;
+}
+
+#title{
+	font-size: 50px;
+}
+
+p{
+	margin: 0 10% 0 10%;
+}
